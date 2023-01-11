@@ -1,6 +1,5 @@
 from math import pi
 class Matma:
-    @staticmethod
     def odlegloscruchjednostajny():
         xo = float(input("xo = "))
         vo = float(input("vo = "))
