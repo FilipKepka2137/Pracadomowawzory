@@ -1,5 +1,6 @@
 import time, random
 from bohater import bohaterr
+from bohater import niebohater
 
 print("Jakiego bohatera chcesz wybierasz")
 print("A - Lis    B - Wilk ")
@@ -91,7 +92,7 @@ if odp == "A":
 
 #B - Wilk = informacja
 elif odp == "B":
-    wilk = bohaterr("bożydar", 10, 3, "pistolet i 10kg c4, 5 gramów mety", "ćpanie")
+    wilk = niebohater("bożydar", 10, 3, "pistolet i 10kg c4, 5 gramów mety", "ćpanie")
     print(f"'imie'{wilk.name}\t'kryształki'{wilk.crystals}\t'zycia'{wilk.lives}\t'plecak'{wilk.backpack}\t'cel'{wilk.goal}\t")
     
     print()
